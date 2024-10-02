@@ -1,0 +1,143 @@
+{
+    "titulo_pagina": "Reseñas de Productos",
+    "datos_tienda": {
+        "nombre": "MarketPlace Reviews",
+        "direccion": "Avenida Principal #456",
+        "telefono": "987654321",
+        "correo": "contacto@marketplacereviews.com",
+        "horario_atencion": {
+            "lunes_a_viernes": "9:00 AM - 6:00 PM",
+            "sabados": "10:00 AM - 4:00 PM",
+            "domingos": "Cerrado"
+        }
+    },
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Smartphone Samsung Galaxy S21",
+            "categoria": "Tecnología",
+            "descripcion": "Teléfono inteligente con pantalla AMOLED de 6.2 pulgadas, 8GB de RAM y 128GB de almacenamiento.",
+            "precio": 799.99,
+            "imagenes": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/150"
+            ],
+            "reseñas": [
+                {
+                    "usuario": "Juan Pérez",
+                    "comentario": "Excelente rendimiento y cámara impresionante. Muy satisfecho con la compra.",
+                    "calificacion": 5,
+                    "fecha": "2024-09-01"
+                },
+                {
+                    "usuario": "Ana Gómez",
+                    "comentario": "Buena relación calidad-precio, pero la batería podría durar más.",
+                    "calificacion": 4,
+                    "fecha": "2024-09-05"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Aspiradora Robot iRobot Roomba 960",
+            "categoria": "Hogar",
+            "descripcion": "Robot aspirador inteligente con control por app, sensores de navegación y sistema de limpieza en 3 fases.",
+            "precio": 499.99,
+            "imagenes": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/150"
+            ],
+            "reseñas": [
+                {
+                    "usuario": "Carlos Rodríguez",
+                    "comentario": "Hace una gran diferencia en la limpieza diaria. Me encanta la funcionalidad automática.",
+                    "calificacion": 4,
+                    "fecha": "2024-08-20"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Zapatillas Deportivas Nike Air Zoom Pegasus 38",
+            "categoria": "Deportes",
+            "descripcion": "Zapatillas de running con amortiguación reactiva y soporte adicional para carreras largas.",
+            "precio": 119.99,
+            "imagenes": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/150"
+            ],
+            "reseñas": [
+                {
+                    "usuario": "Lucía Méndez",
+                    "comentario": "Son súper cómodas para correr largas distancias. Recomendadas.",
+                    "calificacion": 5,
+                    "fecha": "2024-07-18"
+                },
+                {
+                    "usuario": "David López",
+                    "comentario": "El ajuste es bueno, pero los materiales no son tan duraderos como esperaba.",
+                    "calificacion": 3,
+                    "fecha": "2024-07-22"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Camisa de Algodón Uniqlo",
+            "categoria": "Moda",
+            "descripcion": "Camisa casual 100% algodón con ajuste cómodo y diseño moderno.",
+            "precio": 29.99,
+            "imagenes": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/150"
+            ],
+            "reseñas": [
+                {
+                    "usuario": "María Fernanda",
+                    "comentario": "La tela es muy suave y cómoda, perfecta para el verano.",
+                    "calificacion": 5,
+                    "fecha": "2024-08-15"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Libro 'Sapiens: De Animales a Dioses' por Yuval Noah Harari",
+            "categoria": "Libros",
+            "descripcion": "Un recorrido por la historia de la humanidad desde la prehistoria hasta los tiempos modernos.",
+            "precio": 14.99,
+            "imagenes": [
+                "https://via.placeholder.com/150"
+            ],
+            "reseñas": [
+                {
+                    "usuario": "Esteban Salazar",
+                    "comentario": "Un libro fascinante que cambia la manera en que ves la historia humana.",
+                    "calificacion": 5,
+                    "fecha": "2024-06-10"
+                },
+                {
+                    "usuario": "Laura Gil",
+                    "comentario": "Es interesante, pero en algunos capítulos puede ser denso.",
+                    "calificacion": 4,
+                    "fecha": "2024-06-12"
+                }
+            ]
+        }
+    ],
+    "reseñas_destacadas": [
+        {
+            "usuario": "Lucía Méndez",
+            "comentario": "Las Nike Air Zoom Pegasus 38 son una excelente opción para corredores. Muy cómodas y con gran soporte.",
+            "calificacion": 5,
+            "producto": "Zapatillas Deportivas Nike Air Zoom Pegasus 38"
+        },
+        {
+            "usuario": "Esteban Salazar",
+            "comentario": "Sapiens es un libro que todo el mundo debería leer al menos una vez. Te hace reflexionar profundamente.",
+            "calificacion": 5,
+            "producto": "Libro 'Sapiens: De Animales a Dioses' por Yuval Noah Harari"
+        }
+    ]
+}
